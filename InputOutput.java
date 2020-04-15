@@ -7,6 +7,9 @@ public class InputOutput{
   int jumlahSks;
   double IPK;
 
+  System.out.println("Hallo Selamat Datang");
+  System.out.println("Silahkan disi dulu");
+
   System.out.print("Masukkan nama anda: ");
   nama = scanner.nextLine();
   System.out.println("Hai, "+nama);
@@ -18,6 +21,8 @@ public class InputOutput{
   IPK = scanner.nextDouble();
 
   double jumlah = IPK * jumlahSks;
-  System.out.print("Total Nilai = "+jumlah);
+  System.out.println("Total Nilai = "+jumlah);
+ 
+  System.out.println("Terimkasih");
 }
 }
